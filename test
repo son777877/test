@@ -12,6 +12,12 @@ local ESP = {
     Thickness = 0.5,
     AttachShift = 1,
     font = 1,
+    --lockmouse = false,
+    TeamMates = true,
+    Tracers = false,
+    Players = true,
+    Objects = setmetatable({}, {__mode="kv"}),
+    Overrides = {}
 }
 
 --Declarations--
